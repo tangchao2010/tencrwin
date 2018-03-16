@@ -1,0 +1,37 @@
+
+.width-wrapper{width:1240px;margin:auto auto}
+.slider{will-change:transform;-webkit-transform:translateZ(0);transform:translateZ(0);z-index:1;transition:top,opacity .1s}
+.willUpE{position:relative;opacity:0;top:80px;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
+.bertty1.slider{ background:url("../img/mcharge_bg1.jpg")  no-repeat top / auto 850px;}
+.bertty1--desc{margin:130px auto;color:#eee; float:right; padding-right:100px;}
+<!--.slider{height:887px;position:relative}-->
+.pro-sv--img{position:absolute;top:0;height:100%;left:50%;margin-left:-1240px;opacity:.3;display:block}
+.pro-sv--desc{color:#555;text-align:center;margin:235px auto;position:relative;z-index:3}
+.slider{position:relative;overflow:hidden;font-size:14px;line-height:1.8;min-width:1280px} 
+
+/*@media screen and (max-width:1366px) { 
+.bertty1.slider{ background:url("../img/mcharge_bg1.jpg") center center;width:1366px; height:590px;overflow:hidden;
+}*/
+
+.width-wrapper{width:1240px;margin:auto auto}
+.slider{will-change:transform;-webkit-transform:translateZ(0);transform:translateZ(0);z-index:1;transition:top,opacity .1s}
+.willUpE{position:relative;opacity:0;top:60px;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
+.berttya.slider{ background:url("../img/mcharge_bg2.jpg")  no-repeat top / auto 900px;}
+.berttya--desc{margin:130px auto;color:#eee; float:left; padding-left:100px;}
+/*-.slider{height:887px;position:relative}--*/
+.pro-sv--img{position:absolute;top:0;height:100%;left:50%;margin-left:-1240px;opacity:.3;display:block}
+.pro-sv--desc{color:#555;text-align:center;margin:235px auto;position:relative;z-index:3}
+.slider1{position:relative;overflow:hidden;font-size:14px;line-height:1.8;min-width:1280px} 
+
+.berttyb.slider{ background:url("../img/mcharge_bg3.jpg")  no-repeat top / auto 960px;}
+.berttyb--desc{margin:100px auto;color:#eee; float:right; padding-right:100px;}
+
+.berttyc.slider{ background:url("../img/mcharge_bg4.jpg")  no-repeat top / auto 950px; position:relative}
+.berttyc--desc{margin:163px auto;  float:right; padding-right:450px;}
+.berttyc1--desc{margin:auto; margin-top:485px; padding-left:262px;  float:left; position:absolute;}
+.berttyc2--desc{margin:auto; float:left; position:absolute;  margin-top:518px; padding-top:32px; padding-left:524px;}
+.berttyc3--desc{margin:auto; margin-top:400px; padding-left:604px;  float:right; position:absolute;}
+.berttyc4--desc{margin:auto; float:left; position:absolute;  margin-top:466px; padding-top:32px; padding-left:794px;}
+
+.berttyd.slider{ background:url("../img/mcharge_bg5.png")  no-repeat right / auto 800px;}
+.berttyd--desc{margin:auto; margin-top:660px; float:right; padding-right:300px; }

@@ -1,0 +1,413 @@
+
+.landing-stripe {
+	background:white; padding:10px 120px; overflow: hidden; position: relative; min-height: 300px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.landing-stripe h1 {
+	color:#133247; font-weight: 300; margin-bottom: 20px; font-family:'微软雅黑';
+}
+.landing-stripe p {
+	color:#133247; margin-bottom: 20px;font-family:'微软雅黑';
+}
+
+/*
+#content {
+	transition:opacity 0.6s; opacity: 0; -webkit-transition: opacity 0.6s; -moz-transition: opacity 0.6s; -o-transition: opacity 0.6s;
+}
+.active#content {
+	filter: none; opacity: 1;
+}
+.landing-stripe {
+	background: rgb(244, 244, 244); padding: 140px 0px 60px; text-align: center; overflow: hidden; position: relative; min-height: 400px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.landing-stripe h1 {
+	color: rgb(19, 50, 71); font-weight: 300; margin-bottom: 25px; behavior: url(/pie/PIE.htc);
+}
+.landing-stripe p {
+	color: rgb(120, 127, 132); margin-bottom: 20px;
+}
+
+*/
+
+
+
+#landing-1 {
+	background:url("../img/view_1x_1.jpg") no-repeat top / auto 660px; padding-top: 460px; margin-top:20px;z-index: -1; behavior: url(/pie/PIE.htc); -pie-background: url(https://d85ecz8votkqa.cloudfront.net/images/marketing/view-1-1x.png) no-repeat top center/auto 530px;
+}
+#landing-1 > div > h1 {
+	transition:opacity 0.8s, top 0.8s; top: 25px; position: relative; opacity: 0; -webkit-transition: opacity 0.8s, top 0.8s; -moz-transition: opacity 0.8s, top 0.8s; -o-transition: opacity 0.8s, top 0.8s;
+}
+#landing-1 > div > p {
+	transition:opacity 0.8s, top 0.8s; top: 25px; position: relative; opacity: 0; -webkit-transition: opacity 0.8s, top 0.8s; -moz-transition: opacity 0.8s, top 0.8s; -o-transition: opacity 0.8s, top 0.8s;
+}
+#landing-1 > div > #landing-tech-images {
+	transition:opacity 0.8s, top 0.8s; top: 25px; position: relative; opacity: 0; -webkit-transition: opacity 0.8s, top 0.8s; -moz-transition: opacity 0.8s, top 0.8s; -o-transition: opacity 0.8s, top 0.8s;
+}
+.active#landing-1 > div > h1 {
+	top: 0px; filter: none; opacity: 1;
+}
+.active#landing-1 > div > p {
+	top: 0px; filter: none; opacity: 1;
+}
+.active#landing-1 > div > #landing-tech-images {
+	top: 0px; filter: none; opacity: 1;
+}
+
+
+#landing-payments {
+	left: 0px; top: 30px; width: 100%; color: rgb(120, 127, 132); position: absolute;
+}
+#landing-payments > div {
+	margin: 0px auto; width: 510px; overflow: visible; position: relative;
+}
+#landing-payments > div > div {
+	transition:opacity 0.2s; left: 0px; top: 0px; white-space: nowrap; position: absolute; z-index: 4; opacity: 0; -webkit-transition: opacity 0.2s; -moz-transition: opacity 0.2s; -o-transition: opacity 0.2s;
+}
+#landing-payments > div > div.active {
+	filter: none; opacity: 1;
+}
+#landing-payments > div > div > img {
+	display: inline-block;
+}
+#landing-payments > div > div > h3 {
+	font-size: 18px; font-weight: 400; display: inline-block;
+}
+#landing-payments > div > div#landing-payments-1 {
+	left: -238px; top: -4px;
+}
+#landing-payments > div > div#landing-payments-1 > img {
+	vertical-align: top;
+}
+#landing-payments > div > div#landing-payments-1 > h3 {
+	vertical-align: top;
+}
+#landing-payments > div > div#landing-payments-1 > h3 {
+	margin-top: -11px; margin-right: 6px;
+}
+#landing-payments > div > div#landing-payments-2 {
+	left: 400px; top:30px;
+}
+#landing-payments > div > div#landing-payments-2 > img {
+	vertical-align: top;
+}
+#landing-payments > div > div#landing-payments-2 > h3 {
+	vertical-align: top;
+}
+#landing-payments > div > div#landing-payments-2 > h3 {
+	margin-top: -11px; margin-left: 6px;
+}
+
+#landing-payments > div > div#landing-payments-3 {
+	left: 366px; top: 400px;
+}
+#landing-payments > div > div#landing-payments-3 > img {
+	vertical-align: bottom;
+}
+#landing-payments > div > div#landing-payments-3 > h3 {
+	vertical-align: bottom;
+}
+#landing-payments > div > div#landing-payments-3 > h3 {
+	margin-bottom: -10px; margin-left: 6px;
+}
+#landing-payments > div > div#landing-payments-4 {
+	left: -100px; top: 170px;
+}
+#landing-payments > div > div#landing-payments-4 > img {
+	vertical-align: bottom;
+}
+#landing-payments > div > div#landing-payments-4 > h3 {
+	vertical-align: bottom;
+}
+#landing-payments > div > div#landing-payments-4 > h3 {
+	margin-right: 6px; margin-bottom: -10px;
+}
+#landing-payments > div > div#landing-payments-5 {
+	left:220px; top:194px;
+}
+#landing-payments > div > div#landing-payments-5 > img {
+	vertical-align: top;
+}
+#landing-payments > div > div#landing-payments-5 > h3 {
+	vertical-align: top;
+}
+#landing-payments > div > div#landing-payments-5 > h3 {
+	margin-top:26px; margin-left: 6px;
+}
+#landing-payments > div > div#landing-payments-6 {
+	left:333px; top:134px;
+}
+#landing-payments > div > div#landing-payments-6 > img {
+	vertical-align: top;
+}
+#landing-payments > div > div#landing-payments-6 > h3 {
+	vertical-align: top;
+}
+#landing-payments > div > div#landing-payments-6 > h3 {
+	margin-top:-10px; margin-left: 6px;
+}
+#landing-payments > div > div#landing-payments-7 {
+	left: 60px; top: 282px;
+}
+#landing-payments > div > div#landing-payments-7 > img {
+	vertical-align: bottom;
+}
+#landing-payments > div > div#landing-payments-7 > h3 {
+	vertical-align: bottom;
+}
+#landing-payments > div > div#landing-payments-7 > h3 {
+	margin-left:-90px; margin-bottom: -10px;
+}
+#landing-payments > div > div#landing-payments-8 {
+	left: -50px; top: 414px;
+}
+#landing-payments > div > div#landing-payments-8 > img {
+	vertical-align: bottom;
+}
+#landing-payments > div > div#landing-payments-8 > h3 {
+	vertical-align: bottom;
+}
+#landing-payments > div > div#landing-payments-8 > h3 {
+	margin-left:-120px; margin-bottom: -10px;
+}
+
+
+
+
+#landing-1 > .container1 {
+	padding-top:100px; margin:auto; width: 1100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*view2*/
+#landing-2 {
+	background: url("../img/view-2-1x.png") no-repeat left top / 700px auto; padding: 150px 50px 100px 750px; text-align: left; margin-top: -50px; min-height: 600px;;
+}
+#landing-2 > div > h1 {
+	transition:opacity 0.8s, top 0.8s; top: 70px; position: relative; opacity: 0; -webkit-transition: opacity 0.8s, top 0.8s; -moz-transition: opacity 0.8s, top 0.8s; -o-transition: opacity 0.8s, top 0.8s;
+}
+#landing-2 > div > p {
+	transition:opacity 0.8s, top 0.8s; top: 70px; position: relative; opacity: 0; -webkit-transition: opacity 0.8s, top 0.8s; -moz-transition: opacity 0.8s, top 0.8s; -o-transition: opacity 0.8s, top 0.8s;
+}
+.active#landing-2 > div > h1 {
+	top: 45px; filter: none; opacity: 1;
+}
+.active#landing-2 > div > p {
+	top: 45px; filter: none; opacity: 1;
+}
+
+
+
+#landing-security {
+	color:#133247;
+}
+#landing-security > div {
+	transition:opacity 0.2s; left: 0px; top: 0px; position: absolute; opacity: 0; -webkit-transition: opacity 0.2s; -moz-transition: opacity 0.2s; -o-transition: opacity 0.2s;
+}
+#landing-security > div.active {
+	filter: none; opacity: 1;
+}
+#landing-security > div > img {
+	display: inline-block;
+}
+#landing-security > div > h3 {
+	font-size: 18px; font-weight: 400; display: inline-block;
+}
+/*1*/
+#landing-security > div#landing-security-1 {
+	left: 140px; top:-28px;
+}
+#landing-security > div#landing-security-1 > img {
+	vertical-align: top;
+}
+#landing-security > div#landing-security-1 > h3 {
+	vertical-align: top;
+}
+#landing-security > div#landing-security-1 > h3 {
+	margin-bottom: 3px; display: block;
+}
+/*2*/
+#landing-security > div#landing-security-2 {
+	left: 350px; top: 216px;
+}
+#landing-security > div#landing-security-2 > img {
+	vertical-align: top;
+}
+#landing-security > div#landing-security-2 > h3 {
+	vertical-align: top;
+}
+#landing-security > div#landing-security-2 > h3 {
+	margin-top: -20px; margin-left: 6px;
+}
+/*3*/
+#landing-security > div#landing-security-3 {
+	left:360px; top: 370px;
+}
+#landing-security > div#landing-security-3 > img {
+	vertical-align: bottom;
+}
+#landing-security > div#landing-security-3 > h3 {
+	vertical-align: bottom;
+}
+#landing-security > div#landing-security-3 > h3 {
+	margin-bottom:-10px; margin-left:6px;
+}
+/*4*/
+#landing-security > div#landing-security-4 {
+	left: 70px; top: 416px;
+}
+#landing-security > div#landing-security-4 > img {
+	vertical-align: bottom;
+}
+#landing-security > div#landing-security-4 > h3 {
+	vertical-align: bottom;
+}
+#landing-security > div#landing-security-4 > h3 {
+	margin-bottom: -8px; margin-left: 6px;
+}
+
+#landing3-images{margin-top:70px;;}
+
+/*右图左文*/
+#landing-3 {
+	background: url("../img/view-3-1x.png") no-repeat right top / 600px auto; padding: 0px 650px 50px 200px; text-align:right; margin-top: -5px; min-height:600px;}
+#landing-integrate-container1{ padding-top:100px;}	
+#landing-integrate-container1 > h1 {
+	transition:opacity 0.8s, top 0.8s; top: 25px; position: relative; opacity: 0; -webkit-transition: opacity 0.8s, top 0.8s; -moz-transition: opacity 0.8s, top 0.8s; -o-transition: opacity 0.8s, top 0.8s;
+}
+#landing-integrate-container1 > p {
+	transition:opacity 0.8s, top 0.8s; top: 25px; position: relative; opacity: 0; -webkit-transition: opacity 0.8s, top 0.8s; -moz-transition: opacity 0.8s, top 0.8s; -o-transition: opacity 0.8s, top 0.8s;
+}
+
+.active#landing-integrate-container1 > h1 {
+	top: 0px; filter: none; opacity: 1;
+}
+.active#landing-integrate-container1 > p {
+	top: 0px; filter: none; opacity: 1;
+}
+
+#landing-2 > div {
+	vertical-align: middle; display: inline-block;
+}
+#landing-3 > div {
+	vertical-align: middle; display: inline-block;
+}
+.wg-container1{left:91%; top:21%; padding-right:20px;}
+.wg-container1 img ,wg-container1 dd{ float:left;}
+.wg-container1 dd{ width:100px;}
+
+.wg-container11{width:220px;left:70%; top:70%; padding-right:20px;}
+.wg-container11 img, wg-contaienr1 dd{ float:left;}
+
+.wg-container12{left:68%; width:170px;top:10%; padding-right:20px;}
+.wg-container12 img,wg-container12 dd{ float:left;}
+/*右图左文*/
+
+#landing-4 {
+	background: url("../img/view-4-1x.png") no-repeat left top / 600px auto;  padding: 40px 40px 200px 540px; text-align: left; min-height: 600px;margin-top: -100px; 
+}
+
+#landing-4 > div > h1 {
+	transition:opacity 0.8s, top 0.8s; top: 25px; position: relative; opacity: 0; -webkit-transition: opacity 0.8s, top 0.8s; -moz-transition: opacity 0.8s, top 0.8s; -o-transition: opacity 0.8s, top 0.8s;
+}
+#landing-4 > div > p {
+	transition:opacity 0.8s, top 0.8s; top: 25px; position: relative; opacity: 0; -webkit-transition: opacity 0.8s, top 0.8s; -moz-transition: opacity 0.8s, top 0.8s; -o-transition: opacity 0.8s, top 0.8s;
+}
+.active#landing-4 > div > h1 {
+	top: 0px; filter: none; opacity: 1;
+}
+.active#landing-4 > div > p {
+	top: 0px; filter: none; opacity: 1;
+}
+#landing-1 > .container1 {
+	margin: 0px auto; width: 940px;
+}
+#landing-2 > div {
+	vertical-align: middle; display: inline-block;
+}
+#landing-3 > div {
+	vertical-align: middle; display: inline-block;
+}
+#landing-4 > div {
+	vertical-align: middle; display: inline-block;
+}
+#landing-2::before {
+	height: 100%; vertical-align: middle; display: inline-block; content: " ";
+}
+#landing-3::before {
+	height: 100%; vertical-align: middle; display: inline-block; content: " ";
+}
+#landing-4::before {
+	height: 100%; vertical-align: middle; display: inline-block; content: " ";
+}
+
+/*last*/
+#landing-5 {
+	background:url("../img/view_5-1x.png") no-repeat top / auto 600px; padding-top:460px;padding-bottom:160px; z-index: 1;;
+}
+/*
+#landing-5 > div > h1 {
+	transition:opacity 0.8s, top 0.8s; top: 25px; position: relative; opacity: 0; -webkit-transition: opacity 0.8s, top 0.8s; -moz-transition: opacity 0.8s, top 0.8s; -o-transition: opacity 0.8s, top 0.8s;
+}
+#landing-5 > div > p {
+	transition:opacity 0.8s, top 0.8s; top: 25px; position: relative; opacity: 0; -webkit-transition: opacity 0.8s, top 0.8s; -moz-transition: opacity 0.8s, top 0.8s; -o-transition: opacity 0.8s, top 0.8s;
+}
+.active#landing-5 > div > h1 {
+	top: 0px; filter: none; opacity: 1;
+}
+.active#landing-5 > div > p {
+	top: 0px; filter: none; opacity: 1;
+}
+*/
+#landing-5 > .container1 { 
+	margin:auto; width:1100px;
+}
+
+/*无缝滚动*/
+
+@media screen and (max-width:1366px) { 
+#landing-5 {
+	background:url("../img/view_5-1x.png") no-repeat top / auto 500px; padding-top:460px;padding-bottom:160px; z-index: 1;;
+}
+
+#landing-4 {
+	background: url("../img/view-4-1x.png") no-repeat left top / 430px auto; padding: 40px 30px 160px 400px; text-align: left; min-height: 500px;margin-top: -100px; 
+}
+}
+@media screen and (max-width:1600px) { 
+#landing-5 {
+	background:url("../img/view_5-1x.png") no-repeat top / auto 550px; padding-top:460px;padding-bottom:160px; z-index: 1;;
+}
+#landing-4 {
+	background: url("../img/view-4-1x.png") no-repeat left top / 550px auto; padding: 50px 40px 180px 500px; text-align: left; min-height: 550px;margin-top: -100px; 
+}
+
+}
+
+@media screen and (max-width:1320px) { 
+#landing-5 {
+	background:url("../img/view_5-1x.png") no-repeat top / auto 300px; padding-top:460px;padding-bottom:160px; z-index: 1;;
+}
+
+#landing-4 {
+	background: url("../img/view-4-1x.png") no-repeat left top / 300px auto; padding: 20px 10px 130px 300px; text-align: left; min-height: 300px;margin-top: -100px; 
+}
+}
+
+
+
+
+
+
+
+
+
+
+

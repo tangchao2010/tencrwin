@@ -1,0 +1,619 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>关于我们</title>
+    <meta charset="UTF-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="shortcut icon" href="http://www.tencrwin.com/favicon.ico"/>
+    
+    <link rel="shortcut icon" href="/static/img/favicon.png">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+	<link href="css/landing.css" rel="stylesheet">    
+	<LINK href="css/global.css" rel="stylesheet">
+    <link rel="stylesheet" href="view_gd.css" />
+    <link rel="stylesheet" type="text/css" href="css/cascade.css">
+    <link rel="stylesheet" type="text/css" href="css/fzlc.css">
+    <link rel="stylesheet" type="text/css" media="all" href="css/modal.css">
+	<script>
+	function checkImg(){
+		var width=$("#dianji").width();
+		if(width<400){
+			  
+			$("#dianji").width($('#dianji').width() + 400);
+			$('.miaoshu_bannergy').show();
+			$('#img_bannergy').addClass('img_right').removeClass('img_left');
+			$('#dianji').addClass('div_dianji').removeClass('div_dianji_right');
+			$('#img_bannergy').attr('src','img/jiantouzuo.png');
+			
+		}else{
+			
+			$('.miaoshu_bannergy').hide();
+			$("#dianji").width($('#dianji').width() - 400);
+			$('#img_bannergy').addClass('img_left').removeClass('img_right');
+			$('#dianji').addClass('div_dianji_right').removeClass('div_dianji');
+			
+			$('#img_bannergy').attr('src','img/jiantouyou.png');
+		}
+		
+		
+		}
+    	
+    
+    
+    </script>
+    <style>
+    	.img_right{float:right; margin-right:9%; margin-top:100px;}
+    	.img_left{float:right; margin-top:590px; }
+		.div_dianji{ width:30%; height:100%; max-width: 750px; position:absolute; background: #000; margin-top:55px; opacity:0.7;filter:alpha(opacity=70); }
+		.div_dianji_right{ width:10%; height:600px;    position:absolute; }
+		
+		/* box */
+		.table_container{ margin:auto; overflow:hidden;width:1200px;}
+		.jion_table{width:1190px; background-color:#f2f2f2;position:relative; overflow:hidden; overflow:auto; border:solid 1px #7d7d7d;}
+		.tab_menu{overflow:hidden; float:left; border-right:solid 1px #7d7d7d;}
+		.tab_menu li{width:350px;height:60px;line-height:60px;color:#1f77e3;cursor:pointer;}
+		.tab_menu li.current{color:#fff;background:#1f77e3;}
+		.tab_menu li a{color:#1f77e3;text-decoration:none; font-family:'微软雅黑'; font-size:20px;}
+		.tab_menu li.current a{color:#fff;  font-family:'微软雅黑'; font-size:20px;}
+		.tab_box{float:left; padding-left:60px; padding-top:0;}
+		.tab_box li{line-height:26px;overflow:hidden;}
+		.tab_box li a{font-family:'微软雅黑';font-size:16px;color:#4d4d4d;}
+		.tab_box .hide{display:none;}
+ 
+		
+    </style>
+    
+</head>
+<body >
+   <!--  <div class="container-fluid" style="background-color:#333;"> -->
+	<div class="row-fluid" style="background-color:#f4f4f4;">
+    </div>
+        <!-- banner -->
+        <div class="row bannergy">
+        	
+        	<div  class="div_dianji" id="dianji" style="width:25%;">
+            		<div class="miaoshu_bannergy" style=" height:310px; margin-top:170px; margin-right:30px;  color:#FFF; ">
+                    		
+                    		<p style="font-size:28px;text-align:justify; text-justify:inter-ideograph; margin-right:4%; margin-left:9%; font-family:'微软雅黑';">腾势(北京)商务股份有限公司</p>
+                            
+                            <hr style=" text-align:center; height:2px; margin-left:10%; margin-right:6%;  ">
+                            <p style="font-size:18px;font-family:'微软雅黑';text-align:justify; text-justify:inter-ideograph; margin-right:4%; margin-left:9%;">成立于2012年9月，是一家基于终端设备的B2G运营平台，致力于帮助O2O企业建设生态链系统的国家高新技术企业。服务内含ERP商业管理系统、全渠道支付解决方案(银行卡、微信、支付宝、百度钱包等)、三方团购企业验券核销、小微企业金融服务、便民增值业务等，并围绕大数据建立行业信用体系。</p>
+
+                    </div>
+            		
+            		
+            		<img src="img/jiantouzuo.png"   onClick="checkImg(); " class="img_right" id="img_bannergy" />
+            </div>
+            
+            <div class="span12 header">
+                <div class="left1">
+                     <a href="index.html"><img src="img/logotop1.png"/></a>
+		     <div class="news"><a href="news.html" >新闻</a></div>
+                </div>
+                <div class="right1">
+                	<ul class="right_bq">
+                    	<li><a href="index.html">群体</a>
+		           			 <div class="submenu">
+                                <a href="index.html#wc">商户</a>
+                                <a href="server.html" >个人</a>
+                            </div>
+			            </li>
+                    	<li><a href="cbserver.html" >跨境服务</a>
+                         <div class="submenu">
+                                <a href="fsp.html">FSP</a>
+                            </div>
+                        </li>
+                    	<li><a href="about.html"  class="right_bq_li_a">关于腾势</a></li>
+                    	<li><a href="cooperation.html">商务合作</a></li>
+ 					</ul>
+                </div>
+            </div>  
+        </div>
+        
+        
+       <!--navgation-->
+         <div class="row-fluid">     
+        <!--navgation-->
+     	<div class="navgation" id="mynav" style="position: static; margin: auto;">
+            	<div class="nav-left">
+            		<a href="#" style="width:124px; height:28px;"><img src="img/logomid.png" /></a>
+            	</div>
+                <div class="nav-right">
+					<nav class="cl-effect-1">
+						<ul class="right_bq">
+                    	<li><a href="index.html">群体</a>
+		           			 <div class="submenu">
+                                <a href="index.html#wc">商户</a>
+                                <a href="server.html" >个人</a>
+                            </div>
+			            </li>
+                    	<li><a href="cbserver.html" >跨境服务</a>
+                         <div class="submenu">
+                                <a href="fsp.html">FSP</a>
+                            </div>
+                        </li>
+                    	<li><a href="about.html"  class="right_bq_li_a">关于腾势</a></li>
+                    	<li><a href="cooperation.html">商务合作</a></li>
+ 					</ul>
+					</nav>
+				</div>	     
+		</div>
+		</div>
+        
+        <!--合作支持-->
+        <div class="container">
+        	<div class="row hz_container fgx1" style="padding-bottom:70px;">
+            		
+				<div class="col-md-4 qcdzf gyts1">
+					<dl>
+                    	
+                    	<dt>
+                        	<a><img style="float:left; margin-top:16px; padding-right:14px; width:65px; height:45px;" src="img/qydw.png"></a>
+                        	
+                        	<a class="container-a" href="#">企业定位</a>    
+                        </dt>
+                        <dd>助力O2O企业，帮助商户建设完整的经济共享生态链系统。</dd>
+                    </dl>
+				</div>
+                <div class="col-md-4 qcdzf gyts1">
+					<dl>
+                    	<dt><a><img style="float:left; margin-top:16px; padding-right:14px;  width:60px; height:45px;" src="img/fzyj.png"></a><a class="container-a" href="#">发展愿景</a></dt>
+                        <dd>用互联网+助力餐饮企业、美容业、零售百货等细分领域实现线上与线下的有机结合，提供企业金融服务、供应链体系，成为专业的行业解决方案实力派。</dd>
+                    </dl>
+                </div>
+                <div class="col-md-4 qcdzf gyts1">
+					<dl>
+                    	<dt><a><img style="float:left; margin-top:16px; padding-right:14px;  width:50px; height:40px;" src="img/hydw.png"></a><a class="container-a" href="#">行业地位</a></dt>
+                        <dd>公司通过市场、行业标准的验证，得到了广大合作伙伴的认可；并于2015年9月成功完成股改，成为全国2000多家新三板挂牌企业其中一员。</dd>
+                    </dl>
+                </div>
+            </div>
+            
+        </div>
+
+
+         <div class="container hz_con fgx2">
+        	<div class="row  hz_container">
+				<span class="tsfzlc_bt"></span>
+                <!--<h1 style="padding-left:10px; color:#1f77e3;  font-family:'微软雅黑';font-weight:; font-size:42px; border-left:solid 25px #1f77e3; ">OUR DEVELOPMENT HISTORY<br/>腾势发展历程</h1>-->
+         	</div>
+            
+            <div class="row">
+                <div style="width:1200px; padding:70px 0; padding-left:30px;overflow:hidden; margin:auto;">
+                
+                  <div id="cd-timeline" class="cd-container">
+                  
+                        <div class="cd-timeline-block" style="margin-top:190px;">
+                            <div class="cd-timeline-img " style=" margin-left:-570px;display:block;">
+                                <img src="img/2012.png" >
+                            </div>
+
+                            <div class="cd-timeline-content service-box-content" style="margin-left:150px; margin-top:-110px; width:900px;	">
+                                <dl>
+                                <img style="float:left;" src="img/20121.png">
+                                <dd style="float:right; margin-top:60px;"><p style=" display:block;font-size:20px; font-family:'微软雅黑'; width:500px;">6 月，公司筹备阶段；<br/>9 月，公司成立；</br/>10月，公司与北京科技大学计算机与通信工程学院签<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;署了《校企合作协议书》；</p></dd>
+
+                                </dl>
+                            </div>
+                        </div>
+						
+                        <div class="cd-timeline-block">
+                            <div class="cd-timeline-img" style=" margin-left:440px;display:block;" >
+                                <img src="img/2013.png" >
+                            </div>
+
+                            <div class="cd-timeline-content service-box-content"  style=" margin-top:-122px; margin-right:190px; width:900px;">
+                            	<dl>
+                               		 <img style="float:right;" src="img/20131.png">
+                                <dd style="float:left; margin-top:100px;"><p style=" display:block;font-size:20px; font-family:'微软雅黑'; width:510px;"> 6 月，公司与北京银联商务有限公司签署了合作协议；<br/>10月，公司与上海视通智融信息技术有限公司签署了合作协议；</p></dd>
+                                </dl>
+                                
+                            </div>
+                        </div>
+                        
+
+                        <div class="cd-timeline-block">
+                            <div class="cd-timeline-img " style=" margin-left:-570px;display:block;">
+                                <img src="img/2014.png" >
+                            </div>
+
+                            <div class="cd-timeline-content service-box-content" style="margin-left:150px; margin-top:-110px; width:900px;"">
+                                <dl>
+                                <img style="float:left;" src="img/20141.png">
+                                <dd style="float:right;"><p style=" display:block;font-size:20px; font-family:'微软雅黑'; width:520px;"> 3 月，公司与财达证券有限责任公司签署了合作协议；<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;公司获得《中关村高新技术企业》证书；<br/><span style="margin-left:60px;">公司获得《腾势便民终端交易平台V1.0》软件著作</span><br/><span style="margin-left:60px;">权；</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;公司获得《软件企业认定证书》；<br/>8 月，公司获得《信用评级报告》；<br/>9 月，在北京科技大学计算机与通信工程学院软件研发基<br><span style="margin-left:60px;">地;公司获得《中关村企业信用促进会会员》；</span><br/>10月，公司获得《腾势生活刷卡终端-IOS客户端软件》等<br><span style="margin-left:60px;">多软件著作权；</span></p></dd>
+                                </dl>
+                            </div>
+                        </div> 
+
+                        <div class="cd-timeline-block" style="margin-top:30px;">
+                            <div class="cd-timeline-img" style=" margin-left:440px;" >
+                                <img src="img/2015.png" alt="">
+                            </div>
+
+                            <div class="cd-timeline-content service-box-content" style=" margin-top:-122px; margin-right:190px; width:900px;">
+                                <dl>
+                               		 <img style="float:right;" src="img/20151.png">
+                                <dd style="float:left; margin-top:30px;"><p style=" display:block;font-size:20px; font-family:'微软雅黑'; width:510px;">4 月，公司加入《软交所会员单位》，还获得《腾势综合<br/ >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;收银设备-IOS系统软件v1.0》和《腾势运营管理系<br><span style="margin-left:52px;">统软件》两种软著，《实用新型专利》和《智能一<br></span><span style="margin-left:52px;">体机》两项发明专利受理书;</span><BR/>6 月，公司加入中关村互联网金融协会，与支付宝、腾<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp&nbsp&nbsp;讯、百度建立合作关系；<br/>9 月，公司股改成功，正式更名为腾势（北京）商务股份<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有限公司。
+</p></dd>
+                                </dl>
+                            </div>
+                        </div>
+                        
+            </div>
+        </div>
+    </div>
+    </div>
+        
+      
+         <!--合作支持2-->
+        <div class="container hz_con">
+        
+			<div class="row  hz_container fgx3">
+        		<!--<h1 style="padding-left:10px; color:#1f77e3;  font-family:'微软雅黑';font-weight:bold; font-size:42px; border-left:solid 10px #1f77e3;">OUR PROFESSIONAL TEAM MEMBERS<br/>我们的团队</h1>-->
+				<span class="wmdtd_bt"></span>
+              	<p style="margin-top:70px; font-size:20px; font-family:'微软雅黑'; color:#133247;">Tencrwin是一个积极、乐观、进取、向上的高效专业的团队，我们让专业的人做专业的事，公司的成员拥有多年的专业技术背景，大多来自国内知名支付公司的一线骨干。我们是一支年轻的团队，平均年龄仅有26岁，充满了朝气和创新精神，安全的品牌源自客户的信任；我们是一支有梦想的团队；我们来自五湖四海，因为一个共同的梦想，做一家真正优秀的致力于帮助O2O企业建设生态链系统的国家高新技术企业，为客户提供最可靠的互联网产品。</p>
+                <div class="row" style="margin-top:100px;" >
+                   	<div class="team_container">
+                    <!--切换图片-->
+                    <div class="teamfz">
+                        <ul id="bigteamfzUl" class="teamfz-ul">
+                            <li style="background:url(img/llb.png) no-repeat;">
+                                
+                                    <span style="position:absolute; z-index:999; margin-left:200px; text-decoration:none; ">
+                                        <dl >
+                                            <dt style="font-size:36px; font-family:'微软雅黑'; color:#133247; line-height:50px; ">林旅斌</dt>
+                                            <dd style="font-family:'微软雅黑'; font-size:22px; color:#1f77e3;">CEO</dd>
+                                            <dd style="font-family:'微软雅黑'; font-size:16px; color:#133247; line-height:30px;padding-top:10px;">"有远大抱负的人不可忽略眼前的工作"</dd>
+                                            
+                                            <span >
+                                            	<a href="mailto:yy@tencrwin.com" ><img  style="margin-top:20px;cursor:pointer;" src="img/llbyx.png"></a>
+                                            	<a href="http://weibo.com/tencrwin" ><img  style="margin-top:20px; margin-left:15px;cursor:pointer;" src="img/llbxl.png"></a>
+                                            </span>
+                                            
+                                        </dl>
+                                    </span>  
+                                
+                                    
+                            </li>
+                            
+                            <li style="background:url(img/zc.png) no-repeat;">
+                                	
+                                	<span style="position:absolute; z-index:999; margin-left:200px; text-decoration:none; ">
+                                        <dl>
+                                            <dt style="font-size:36px; font-family:'微软雅黑'; color:#133247; line-height:50px; ">朱义军</dt>
+                                            <dd style="font-family:'微软雅黑'; font-size:22px; color:#1f77e3;">财务总监</dd>
+                                            <dd style="font-family:'微软雅黑'; font-size:16px; color:#133247; line-height:30px;padding-top:10px;">"工作中最重要的是提高效率"</dd>
+                                            
+                                            <span style="margin-left:20px;">
+                                            	<a href="mailto:zhu.yijun@tencrwin.com" ><img  style="margin-top:20px;cursor:pointer;" src="img/llbyx.png"></a>
+                                            	<a href="http://weibo.com/tencrwin" ><img  style="margin-top:20px; margin-left:15px;cursor:pointer;" src="img/llbxl.png"></a>
+                                            </span>
+                                            
+                                        </dl>
+                                    </span>  
+                                
+                              
+                            </li>
+                            
+                            <li  style="background:url(img/yhr.png) no-repeat;">
+                              
+                                	<span style="position:absolute; z-index:999; margin-left:200px; text-decoration:none;  ">
+                                        <dl>
+                                            <dt style="font-size:36px; font-family:'微软雅黑'; color:#133247; line-height:50px; ">张慧</dt>
+                                            <dd style="font-family:'微软雅黑'; font-size:22px; color:#1f77e3;">市场副总监</dd>
+                                            <dd style="font-family:'微软雅黑'; font-size:16px; color:#133247; line-height:30px;padding-top:10px;">"缺乏对事业的热爱，才华也是无用的"</dd>
+                                           
+                                            
+                                            <span style="margin-left:10px;">
+                                            	<a href="mailto:zhang.hui@tencrwin.com" ><img  style="margin-top:20px;cursor:pointer;" src="img/llbyx.png"></a>
+                                            	<a href="http://weibo.com/tencrwin" ><img  style="margin-top:20px; margin-left:15px;cursor:pointer;" src="img/llbxl.png"></a>
+                                            </span>
+                                            
+                                        </dl>
+                                    </span> 
+                                
+                               
+                            </li>
+                            
+                            <li  style="background:url(img/llb1.png) no-repeat;">
+                            	
+                                    <span style="position:absolute; z-index:999; margin-left:200px; text-decoration:none; ">
+                                        <dl>
+                                            <dt style="font-size:36px; font-family:'微软雅黑'; color:#133247; line-height:50px; ">岳焕瑞</dt>
+                                            <dd style="font-family:'微软雅黑'; font-size:22px; color:#1f77e3;">市场副总监</dd>
+                                            <dd style="font-family:'微软雅黑'; font-size:16px; color:#133247; line-height:30px;padding-top:10px;">"人的意志和劳动将创造奇迹般的奇迹"</dd>
+                                            
+                                            <span style="margin-left:20px;">
+                                            	<a href="mailto:yue.huanrui@tencrwin.com" ><img  style="margin-top:20px;cursor:pointer;" src="img/llbyx.png"></a>
+                                            	<a href="http://weibo.com/tencrwin" ><img  style="margin-top:20px; margin-left:15px;cursor:pointer;" src="img/llbxl.png"></a>
+                                            </span>
+                                            
+                                        </dl>
+                                    </span>  
+                               
+                                
+                            </li>
+                            
+                            <li  style="background:url(img/yhr1.png) no-repeat;">
+                            
+                             
+                                    <span style="position:absolute; z-index:999; margin-left:200px; text-decoration:none; ">
+                                        <dl>
+                                            <dt style="font-size:36px; font-family:'微软雅黑'; color:#133247; line-height:50px; ">张理</dt>
+                                            <dd style="font-family:'微软雅黑'; font-size:22px; color:#1f77e3;">运营副总监</dd>
+                                            <dd style="font-family:'微软雅黑'; font-size:16px; color:#133247; line-height:30px;padding-top:10px;">"知识是从劳动中得来的"</dd>
+                                            
+                                            <span style=" margin-left:10px;">
+                                            	<a href="mailto:zhang.li@tencrwin.com" ><img  style="margin-top:20px;cursor:pointer;" src="img/llbyx.png"></a>
+                                            	<a href="http://weibo.com/tencrwin" ><img  style="margin-top:20px; margin-left:15px;cursor:pointer;" src="img/llbxl.png"></a>
+                                            </span>
+                                            
+                                        </dl>
+                                    </span>  
+                              
+                      
+                            
+                            <li  style="background:url(img/lilei.png) no-repeat;">
+                           
+                                    <span style="position:absolute; z-index:999; margin-left:200px; text-decoration:none; ">
+                                        <dl>
+                                            <dt style="font-size:36px; font-family:'微软雅黑'; color:#133247; line-height:50px; ">卢珊珊</dt>
+                                            <dd style="font-family:'微软雅黑'; font-size:22px; color:#1f77e3;">媒体主管</dd>
+                                             <dd style="font-family:'微软雅黑'; font-size:16px; color:#133247; line-height:30px;padding-top:10px;">"如果自身伟大，任何工作你都不会觉得渺小"</dd>
+                                            
+                                            <span style="margin-left:20px;">
+                                            	<a href="mailto:lu.shanshan@tencrwin.com" ><img  style="cursor:pointer;" src="img/llbyx.png"></a>
+                                            	<a href="http://weibo.com/tencrwin" ><img  style=" margin-left:15px;cursor:pointer;" src="img/llbxl.png"></a>
+                                            </span>
+                                            
+                                        </dl>
+                                    </span>  
+                                
+                                
+                                
+                            </li>
+                            
+                            <li  style="background:url(img/xueliang.png) no-repeat;">
+                            
+                                    <span style="position:absolute; z-index:999; margin-left:200px; text-decoration:none; ">
+                                        <dl>
+                                            <dt style="font-size:36px; font-family:'微软雅黑'; color:#133247; line-height:50px; ">孙学良</dt>
+                                            <dd style="font-family:'微软雅黑'; font-size:22px; color:#1f77e3;">产品经理</dd>
+                                            <dd style="font-family:'微软雅黑'; font-size:16px; color:#133247; line-height:30px;padding-top:10px;">"事业是一切，名号只是虚声"</dd>
+                                            
+                                            <span style=" margin-left:10px;">
+                                            	<a href="mailto:sun.xueliang@tencrwin.com" ><img  style="margin-top:20px;cursor:pointer;" src="img/llbyx.png"></a>
+                                            	<a href="http://weibo.com/tencrwin" ><img  style="margin-top:20px; margin-left:15px;cursor:pointer;" src="img/llbxl.png"></a>
+                                            </span>
+                                            
+                                        </dl>
+                                    </span>  
+                                
+                                
+                               
+                            </li>
+                            
+                            <li  style="background:url(img/liuna.png) no-repeat;">
+                            
+                                    <span style="position:absolute; z-index:999; margin-left:200px; text-decoration:none; ">
+                                        <dl>
+                                            <dt style="font-size:36px; font-family:'微软雅黑'; color:#133247; line-height:50px; ">刘娜</dt>
+                                            <dd style="font-family:'微软雅黑'; font-size:22px; color:#1f77e3;">人事\行政主管</dd>
+                                            <dd style="font-family:'微软雅黑'; font-size:16px; color:#133247; line-height:30px;padding-top:10px;">"永远记得成功需要的是手，不是嘴"</dd>
+                                            
+                                            <span style=" margin-left:10px;">
+                                            	<a href="mailto:liu.na@tencrwin.com" ><img  style="margin-top:20px;cursor:pointer;" src="img/llbyx.png"></a>
+                                            	<a href="http://weibo.com/tencrwin" ><img  style="margin-top:20px; margin-left:15px;cursor:pointer;" src="img/llbxl.png"></a>
+                                            </span>
+                                            
+                                        </dl>
+                                    </span>  
+                                
+                                
+                               
+                            </li>
+                            
+                            <li  style="background:url(img/sanhao.png) no-repeat;">
+                            
+                                    <span style="position:absolute; z-index:999; margin-left:200px; text-decoration:none; ">
+                                        <dl>
+                                            <dt style="font-size:36px; font-family:'微软雅黑'; color:#133247; line-height:50px; ">刘锡俊</dt>
+                                            <dd style="font-family:'微软雅黑'; font-size:22px; color:#1f77e3;">高级设计师</dd>
+                                             <dd style="font-family:'微软雅黑'; font-size:16px; color:#133247; line-height:30px;padding-top:10px;">"领导能力是刺激员工努力工作的原动力"</dd>
+                                            
+                                            <span style="margin-left:20px;">
+                                            	<a href="mailto:liu.xijun@tencrwin.com" ><img  style="margin-top:20px;cursor:pointer;" src="img/llbyx.png"></a>
+                                            	<a href="http://weibo.com/tencrwin" ><img  style="margin-top:20px; margin-left:15px;cursor:pointer;" src="img/llbxl.png"></a>
+                                            </span>
+                                            
+                                        </dl>
+                                    </span>  
+                               
+                                
+                                
+                            </li>
+                            
+                            
+                        </ul>
+                    </div>
+                    <!--teamfz 切换按钮-->
+                    <ul id="smallteamfzUl" class="info-btn">
+                        <li class="info-cur" id="mypic0" sid="0"><span>1</span></li>
+                        <li id="mypic1" sid="1"><span>2</span></li>
+                        <li id="mypic2" sid="2"><span>3</span></li>
+                    </ul>
+            
+                </div>
+                </div>             
+               
+            </div>
+        </div>    
+        
+        
+        
+         <!--加入我们-->
+         <div class="container" >
+			<div class="row  hz_container fgx4"  style="padding-bottom:40px; ">
+        		<!--<h1 style="padding-left:10px; color:#1f77e3;  font-family:'微软雅黑';font-weight:bold; font-size:42px; border-left:solid 10px #1f77e3; ">JOIN US<br/>加入我们</h1>-->
+                <span class="jrwm_bt"></span>
+        		<p style="font-family:'微软雅黑'; font-size:24px; color:#1f77e3; line-height:60px; margin-top:20px;"> &nbsp;   &nbsp;10秒钟申请，30分钟沟通，只有一个结果，铸就辉煌未来！</p>	
+        		<p>&nbsp;</p>
+                <!--调用-->
+   				 <Iframe src="table.html" width="100%" height="500" scrolling="no" m frameborder="0"></iframe>
+                
+         	<p style="text-align:center; font-family:'微软雅黑'; font-size:20px; color:#133247; padding:60px 0; font-weight:bold;">如果您对腾势的工作岗位感兴趣，请发送简历至：hr.ts@tencrwin.com</p>       
+        </div> 
+		
+ 	</div>
+    
+    
+    
+    
+    
+    <!--工作环境-->
+    	 <div class="container" >
+			<div class="row  hz_container"  style=" padding-bottom:70px;">
+            	<span class="gzhj_bt"></span>
+        		<!--<h1 style="padding-left:10px; color:#1f77e3;  font-family:'微软雅黑';font-weight:bold; font-size:42px; border-left:solid 10px #1f77e3;">WORKING ENVIRONMENT<br/>工作环境</p></h1>-->
+            </div>
+            
+        </div>
+        <!--<div class="container-fluid" style="padding-bottom:40px;">-->
+    	<div style="overflow:hidden; padding-bottom:100px;">
+        	<img style="width:100%;" src="img/gzhj.png">
+        </div>    
+   		
+        <!--footer-->            
+	<div class="zfooter">
+    	<div class="container-fluid">
+        
+        	<div style="overflow:hidden">
+                <dl style=" margin-right:70px;">
+                    <dt>公司地址</dt>
+                    <dd>北京市大兴区西红门镇寿保庄<br>
+            鸿坤金融谷1号楼202-1</dd>
+            		<dd style="padding-top:46px;"> <a style="color:#333; font-family:'微软雅黑'; font-size:14px;">腾势股份官方网站 京ICP备13034688号-1</a></dd>
+                </dl>
+                <dl>
+                    <dt>联系方式</dt>
+                    <dd >010 - 67042610</dd>
+                    <dd class="zfooter_lxtb">
+                    	<ul>
+                            <li><a href="#wxmodal" class="flatbtn" id="modaltrigger"><img src="img/wxd.png"></a></li>
+                            <li><a href="http://weibo.com/tencrwin" target="view_window"><img src="img/xl1.png"></a></li>
+                            <li><a href="http://wpa.qq.com/msgrd?v=3&uin=2735447182&site=qq&menu=yes" target="view_window" title="在线QQ客服"><img src="img/qq1.png"></a></li>
+                        </ul> 
+                        <div id="wxmodal" style="display:none; ">
+                            <div style=" padding-top:13px; padding-left:11px;">
+                            <img src="img/wxewm.png">
+                        </div>   
+                    <dd>
+                 </dl>
+                 
+                 <div class="zfooter_right">
+                    	
+                    <dl style="width:480px;">
+                    	<img style="float:left; margin-right:40px;" src="img/footer_ewm.jpg">
+                    	<dt>全国招商电话</dt>
+                        <dd style="font-size:40px; line-height:70px; margin-top:8px;">400-052-9596</dd>
+                        <dd style="margin-top:17px;"><a style="color:#333; font-family:'微软雅黑'; font-size:14px;">京公网安备 11010602004602号</a></dd>
+                    </dl>
+            	 </div>
+			</div> 
+		</div> 
+	</div> 
+    
+
+</div>
+    
+
+    <div id="goTopBtn" ><img src="img/top.png" onClick="goTopEx()"></div> 
+    
+    
+
+
+
+	<script type="text/javascript">
+    	 document.getElementById("demo2").innerHTML = document.getElementById("demo1").innerHTML;MyMar=setInterval(Marquee,speed);
+    </script>
+    
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/global.js"></script>
+    <script type="text/javascript" src="js/zzsc.js"></script>
+    <script type="text/javascript" src="js/zptable.js"></script>
+    <!--历程-->
+    <script type="text/javascript"  src="js/vendor/modernizr.min.js"></script>
+	<script type="text/javascript" src="js/vendor/custom.js"></script>
+    <!--table-->
+    <script type="text/javascript" src="table/js/jquery.lazyload.js"></script>
+    <script type="text/javascript" src="table/js/jquery.tabs.js"></script>
+    <script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+
+    
+    
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            main.init();
+        });
+		
+		
+   function funcShow(id){
+    for(var i=0;i<8;i++){
+     var divInfo =document.getElementById('div'+(i+1));
+     divInfo.style.display='none';
+    }
+    var div =document.getElementById('div'+id);
+     div.style.display='block';
+   }
+		
+	
+	$(document).ready(function($){
+	
+	
+	//左右滑动选项卡切换
+	$("#move-animate-left").tabso({
+		cntSelect:"#leftcon",
+		tabEvent:"mouseover",
+		tabStyle:"move-animate",
+		direction : "left"
+	});
+
+	
+});	
+	</script>
+    
+            <script type="text/javascript">
+			$(function(){	
+			//获取要定位元素距离浏览器顶部的距离
+			var navH = $(".navgation").offset().top;
+			//滚动条事件
+			$(window).scroll(function(){
+				//获取滚动条的滑动距离
+				var scroH = $(this).scrollTop();
+				//滚动条的滑动距离大于等于定位元素距离浏览器顶部的距离，就固定，反之就不固定
+				if(scroH>=navH){
+					$(".navgation").css({"position":"fixed","top":0,"left":"0","margin-left":"px"});
+					$(".submenu").css({"position":"fixed"});
+				}else if(scroH<navH){
+					$(".navgation").css({"position":"static","margin":"auto"});
+					$(".submenu").css({"position":"absolute"});
+				}
+				console.log(scroH==navH);
+			})
+		})
+	</script>
+    
+    <script type="text/javascript" src="js/cascadepb.js"></script>
+    <script>
+        $('#brand-waterfall').cascade();
+		
+		$(function(){
+		 $('#modaltrigger').leanModal({ top: 300, overlay: 0.45, closeButton: ".hidemodal" });
+		});
+    </script>    
+</body>
+</html>
